@@ -1,0 +1,25 @@
+/*
+Theme Name:  childtwentyseventeen
+Description:  Child theme based on twenty seventeen
+Author:  Frew X Design
+Version: 1.0
+Template: twentyseventeen
+*/
+
+@import url('../twentyseventeen/style.css');
+/* typography changes */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600|Comfortaa:400,700');
+
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Muli', sans-serif;*/
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 3em;
+}
+.site-title {
+	text-transform: uppercase;
+}
+body {
+	font-family: 'Muli', sans-serif;
+}
