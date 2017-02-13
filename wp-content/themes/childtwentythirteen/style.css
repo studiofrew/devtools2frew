@@ -1,18 +1,21 @@
 /*
-Theme Name:  childtwentyseventeen
-Description:  Child theme based on twenty seventeen
+Theme Name:  childtwentythirteen
+Description:  Child theme based on twenty thirteen
 Author:  Frew X Design
 Version: 1.0
-Template: twentyseventeen
+Template: twentythirteen
 */
 
-@import url('../twentyseventeen/style.css');
+@import url('../twentythirteen/style.css');
 /* typography changes */
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600|Comfortaa:400,800');
 
 /*font-family: 'Comfortaa', cursive;
 font-family: 'Muli', sans-serif;*/
-
+.site-header {
+    background: url(http://localhost:8888/devtools2frew/wp-content/themes/childtwentythirteen/images/header/headerimage.jpg) no-repeat scroll top;
+    background-size: 1600px auto;
+}
 .site-title {
 	text-transform: lowercase;
 }
@@ -28,8 +31,5 @@ body {
 .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
-	font-family: 'Comfortaa', cursive;
-	font-size: 2em;
-	color: #749dac;
-	text-transform: lowercase;
+	display: none;
 }
