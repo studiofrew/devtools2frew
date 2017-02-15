@@ -5,31 +5,102 @@ Author:  Frew X Design
 Version: 1.0
 Template: twentythirteen
 */
-
+/*naming convention for child theme submission - 'melissa_{parent}-child' and include a screenhot.png file*/
 @import url('../twentythirteen/style.css');
 /* typography changes */
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600|Comfortaa:400,800');
 
 /*font-family: 'Comfortaa', cursive;
 font-family: 'Muli', sans-serif;*/
-.site-header {
-    background: url(http://localhost:8888/devtools2frew/wp-content/themes/childtwentythirteen/images/header/headerimage.jpg) no-repeat scroll top;
-    background-size: 1600px auto;
+/*main structure*/
+.site {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
 }
-.site-title {
-	text-transform: lowercase;
+hr {
+	background: url(../images/headerimage.jpg) repeat center top;
+}/*changing the header image*/
+.site-header .site-title:hover {
+    text-decoration: none;
+}
+.site-title, .site-description {
+    color: #526C74;
 }
 h1 {
 	font-family: 'Comfortaa', cursive;
 	font-size: 3em;
-	color: #749dac;
+	color: #526C74;
 }
 
 body {
 	font-family: 'Muli', sans-serif;
+	color: #303030;
 }
-.entry-title,
-.page-title,
-body.page:not(.twentyseventeen-front-page) .entry-title {
-	display: none;
+.navigation a {
+    color: #526C74;
+}
+.entry-meta a {
+    color: #526C74;
+}
+.entry-title {
+    font-weight: lighter;
+    margin: 0 0 5px;
+    font-size: 2em;
+}
+a:visited {
+	color: #78AFBF;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:active, a:hover {
+	color: #78AFBF;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: italic;
+}
+.navbar {
+    background-color: #fff;
+}
+.nav-menu li a {
+    color: black;
+    display: block;
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: #526C74;
+    font-style: none;
+    background: #fff;
+}
+a:visited {
+    color: #526C74;
+}
+.widget {
+    background-color: #fff;
+}
+.site-footer {
+    background-color: #526C74;
+    color: #78AFBF;
+    font-size: 14px;
+    text-align: center;
+}
+.site-footer .sidebar-container {
+    background-color: #526C74;
+    color: #78AFBF;
+}
+.site-footer .widget a {
+    color: #78AFBF;
+}
+.site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
+    color: #78AFBF;
+}
+.comment-respond {
+    background-color: #fff;
 }
