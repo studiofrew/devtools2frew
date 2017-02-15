@@ -24,14 +24,26 @@ hr {
 /* element styling*/
 .site-header .site-title:hover {
     text-decoration: none;
+    color: #303030;
 }
-.site-title, .site-description {
-    color: #526C74;
+.site-header .site-title {
+    color: #fff;
+    font-weight: lighter;
+}
+.site-header .site-description {
+    color: #fff;
+    font-weight: 1em;
+    font: 300 24px "Muli", sans-serif;
+    margin: 0;
 }
 .entry-title {
+    color: #526C74;
     font-weight: lighter;
     margin: 0 0 5px;
     font-size: 2em;
+}
+.entry-title a {
+    color: #526C74;
 }
 .entry-title a:hover {
     color: #78AFBF;
@@ -50,9 +62,6 @@ body {
 .widget {
     background-color: #fff;
 }
-a:visited {
-    color: #303030;
-}
 a {
     color: #526C74;
     text-decoration: none;
@@ -68,7 +77,13 @@ a:active, a:hover {
 a:hover {
 	text-decoration: italic;
 }
-
+.entry-content a, .comment-content a {
+    color: #526C74;
+    font-size: 1.5em;
+}
+.entry-content a:hover, .comment-content a:hover {
+    color: #78AFBF;
+}
 /*navigation bar formatting*/
 .navigation a {
     color: #526C74;
