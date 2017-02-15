@@ -20,11 +20,22 @@ font-family: 'Muli', sans-serif;*/
 hr {
 	background: url(../images/headerimage.jpg) repeat center top;
 }/*changing the header image*/
+
+/* element styling*/
 .site-header .site-title:hover {
     text-decoration: none;
 }
 .site-title, .site-description {
     color: #526C74;
+}
+.entry-title {
+    font-weight: lighter;
+    margin: 0 0 5px;
+    font-size: 2em;
+}
+.entry-title a:hover {
+    color: #78AFBF;
+    text-decoration: none;
 }
 h1 {
 	font-family: 'Comfortaa', cursive;
@@ -34,23 +45,18 @@ h1 {
 
 body {
 	font-family: 'Muli', sans-serif;
-	color: #303030;
+	color: #526C74;
 }
-.navigation a {
-    color: #526C74;
-}
-.entry-meta a {
-    color: #526C74;
-}
-.entry-title {
-    font-weight: lighter;
-    margin: 0 0 5px;
-    font-size: 2em;
+.widget {
+    background-color: #fff;
 }
 a:visited {
-	color: #78AFBF;
+    color: #303030;
 }
-
+a {
+    color: #526C74;
+    text-decoration: none;
+}
 a:focus {
 	outline: thin dotted;
 }
@@ -59,9 +65,16 @@ a:active, a:hover {
 	color: #78AFBF;
 	outline: none;
 }
-
 a:hover {
 	text-decoration: italic;
+}
+
+/*navigation bar formatting*/
+.navigation a {
+    color: #526C74;
+}
+.navigation a:hover {
+    color: #78AFBF;
 }
 .navbar {
     background-color: #fff;
@@ -79,12 +92,13 @@ a:hover {
     font-style: none;
     background: #fff;
 }
-a:visited {
-    color: #526C74;
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
+    background-color: #78AFBF;
+
+    color: #fff;
 }
-.widget {
-    background-color: #fff;
-}
+
+/*footer formatting*/
 .site-footer {
     background-color: #526C74;
     color: #78AFBF;
@@ -100,7 +114,4 @@ a:visited {
 }
 .site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
     color: #78AFBF;
-}
-.comment-respond {
-    background-color: #fff;
 }

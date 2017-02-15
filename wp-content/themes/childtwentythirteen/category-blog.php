@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the blog category pages
+ * The template for displaying the blog category pages in the childtwentythirteen template
  *
  * 
  *
