@@ -18,7 +18,7 @@ font-family: 'Muli', sans-serif;*/
 	border-right: 1px solid #fff;
 }
 hr {
-	background: url(../images/headerimage.jpg) repeat center top;
+	background: url(../images/header/headerimage.jpg) center top;
 }/*changing the header image*/
 
 /* element styling*/
@@ -27,11 +27,11 @@ hr {
     color: #303030;
 }
 .site-header .site-title {
-    color: #fff;
+    color: #aaa;
     font-weight: lighter;
 }
 .site-header .site-description {
-    color: #fff;
+    color: #7c7c7c;
     font-weight: 1em;
     font: 300 24px "Muli", sans-serif;
     margin: 0;
@@ -109,13 +109,13 @@ a:hover {
 }
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
     background-color: #78AFBF;
-
+    border-radius: 50%;
     color: #fff;
 }
 
 /*footer formatting*/
 .site-footer {
-    background-color: #526C74;
+    background-color: #1a1a1a;
     color: #78AFBF;
     font-size: 14px;
     text-align: center;
