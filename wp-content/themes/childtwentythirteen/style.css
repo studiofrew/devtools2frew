@@ -22,6 +22,7 @@ hr {
 }/*changing the header image*/
 
 /* element styling*/
+/*site header*/
 .site-header .site-title:hover {
     text-decoration: none;
     color: #303030;
@@ -49,6 +50,14 @@ hr {
     color: #78AFBF;
     text-decoration: none;
 }
+.entry-content a, .comment-content a {
+    color: #526C74;
+    font-size: 1.5em;
+}
+.entry-content a:hover, .comment-content a:hover {
+    color: #78AFBF;
+}
+/* header and body element styling*/
 h1 {
 	font-family: 'Comfortaa', cursive;
 	font-size: 3em;
@@ -62,6 +71,7 @@ body {
 .widget {
     background-color: #fff;
 }
+/*link styling*/
 a {
     color: #526C74;
     text-decoration: none;
@@ -76,13 +86,6 @@ a:active, a:hover {
 }
 a:hover {
 	text-decoration: italic;
-}
-.entry-content a, .comment-content a {
-    color: #526C74;
-    font-size: 1.5em;
-}
-.entry-content a:hover, .comment-content a:hover {
-    color: #78AFBF;
 }
 /*navigation bar formatting*/
 .navigation a {
@@ -112,7 +115,6 @@ a:hover {
     border-radius: 50%;
     color: #fff;
 }
-
 /*footer formatting*/
 .site-footer {
     background-color: #1a1a1a;
@@ -130,6 +132,7 @@ a:hover {
 .site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
     color: #78AFBF;
 }
+/*media querries*/
 @media (max-width: 643px){
     .toggled-on .nav-menu > li a:hover, .toggled-on .nav-menu > ul a:hover {
         background-color: #78AFBF;
