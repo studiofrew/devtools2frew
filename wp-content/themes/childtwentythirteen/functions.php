@@ -10,3 +10,11 @@ function my_theme_enqueue_styes() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>
+<?
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb_google_fonts',
+		'http://fonts.googleapis.com/css?family=Muli:400,600 | Comfortaa:400,800', false );
+}
+add_action( 'wp_enqueue_scripts',
+	'wpb_add_google_fonts' );
+?>
