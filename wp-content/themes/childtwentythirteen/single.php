@@ -24,5 +24,5 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?><!--removing the sidebar from the single.php template-->
 <?php get_footer(); ?>
