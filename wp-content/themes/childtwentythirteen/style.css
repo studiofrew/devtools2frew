@@ -19,16 +19,18 @@ font-family: 'Muli', sans-serif;*/
 }
 hr {
 	background: url(../images/header/headerimage.jpg) center top;
+    background-color: #1a1a1a; 
 }/*changing the header image*/
 
 /* element styling*/
 /*site header*/
 .site-header .site-title:hover {
     text-decoration: none;
-    color: #303030;
+    color: #526C74;
 }
 .site-header .site-title {
     color: #aaa;
+    font-size: 5em;
     font-weight: lighter;
 }
 .site-header .site-description {
@@ -76,8 +78,14 @@ a {
     color: #526C74;
     text-decoration: none;
 }
+.entry-meta a {
+    color: #78AFBF;
+}
+a:visited {
+    color: #526C74;
+}
 a:focus {
-	outline: thin dotted;
+	outline: none;
 }
 
 a:active, a:hover {
@@ -86,6 +94,9 @@ a:active, a:hover {
 }
 a:hover {
 	text-decoration: italic;
+}
+a:visited {
+    color: #78AFBF;
 }
 /*navigation bar formatting*/
 .navigation a {
@@ -102,7 +113,8 @@ a:hover {
     display: block;
     font-size: 15px;
     line-height: 1;
-    padding: 15px 20px;
+    padding: 15px;
+    margin: 0px, 10px, 10px, 10px;
     text-decoration: none;
 }
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
@@ -111,9 +123,13 @@ a:hover {
     background: #fff;
 }
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
-    background-color: #78AFBF;
-    border-radius: 50%;
+    background-color: #526C74;
+    border-radius: 100%;
     color: #fff;
+}
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: #78AFBF;
+    font-style: italic;
 }
 /*footer formatting*/
 .site-footer {
@@ -128,9 +144,42 @@ a:hover {
 }
 .site-footer .widget a {
     color: #78AFBF;
+    text-decoration: none;
+}
+.site-footer .widget a:hover{
+    color: #fff;
+    text-decoration: none;
+    float: left;
 }
 .site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
     color: #78AFBF;
+}
+.site-footer a {
+   color: #1a1a1a;
+}
+/*formatting the search.php response screen and search field*/
+button, input, textarea {
+    border: none;
+}
+.page-header {
+    background-color: #526C74;
+}
+.page-title {
+    font-family: 'Comfortaa', cursive;
+    color: #78AFBF;
+    text-decoration: none;
+    font-style: normal;
+}
+.site-header .search-field:focus {
+    border: none;
+}
+input.search-field{
+    background-color: rgba(128, 172, 185, 0.5);
+}
+/*sticky styling*/
+.category-sticky {
+    border-top: none;
+    border-bottom: 4px solid rgba(96, 127, 135, 0.50);
 }
 /*media querries*/
 @media (max-width: 643px){
