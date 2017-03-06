@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Portfolio Archive pages for the childtwenty thirteen theme
+ * The template for displaying Portfolio Archive pages for the child of twenty thirteen theme
 
  *
  * @link https://codex.wordpress.org/Template_Hierarchy

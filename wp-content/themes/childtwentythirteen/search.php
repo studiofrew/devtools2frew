@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Search Results pages
+ * The template for displaying Search Results pages for the child of twenty thirteen theme
  *
  * @package WordPress
  * @subpackage Twenty_Thirteen

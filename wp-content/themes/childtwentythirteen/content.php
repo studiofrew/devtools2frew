@@ -1,6 +1,6 @@
 <?php
 /**
- * The custom template for displaying content in childtwentythirteen
+ * The custom template for displaying content in child of twentythirteen theme
  *
  * Used for both single and index/archive/search.
  *

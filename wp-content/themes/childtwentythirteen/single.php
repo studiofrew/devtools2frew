@@ -1,6 +1,6 @@
 <?php
 /**
- * The custom template for displaying all single posts in the childtwentythirteen template
+ * The custom template for displaying all single posts in the child twentythirteen theme
  *
  * @package WordPress
  * @subpackage Twenty_Thirteen

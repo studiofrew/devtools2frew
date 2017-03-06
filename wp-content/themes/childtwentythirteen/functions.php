@@ -1,6 +1,10 @@
+
 <?php
+/**
+ * functions for child of twentythirteen theme - enqueueing fonts and syles
+ */
 function my_theme_enqueue_styes() {
-	$parent_style = 'twentythirteen-style'; //This is twentythirteen-style for the Child of Twenty Thirteen theme.
+	$parent_style = 'twentythirteen-style'; 
 	wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style',
 		get_stylesheet_directory_uri() . '/style.css',

@@ -1,7 +1,6 @@
 <?php
 /**
- * The template for displaying Portfolio Archive pages for the childtwenty thirteen theme
-
+ * The template for displaying Portfolio Archive pages for the child twentythirteen theme
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
@@ -26,7 +25,7 @@ get_header(); ?>
 						_e( 'Archives', 'twentythirteen' );
 					endif;
 				?></h1>
-			</header>.archive-header --><!--
+			</header>.archive-header --><!--removing the blog elements for the posts
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -39,7 +38,7 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
 
-		</div><!-- #content -->
+		</div> #content -->
 	</div><!-- #primary -->
 
 <?php //get_sidebar(); ?><!--removing the sidebar-->

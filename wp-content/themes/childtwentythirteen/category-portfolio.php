@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the portfolio category pages in the childtwentythirteen template
+ * The template for displaying the portfolio category pages in the child of twentythirteen theme
  *
  * 
  *
